@@ -46,7 +46,7 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
-## Team roles
+## Team Roles
 
 🧑‍🎨 UI/UX Designer
 Goal: Transform product visions into intuitive and engaging user experiences.
