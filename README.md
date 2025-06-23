@@ -1,10 +1,10 @@
 # airbnb-clone-project
-##Overview of the AirBnB Clone
-🚀 Objective
+## Overview of the AirBnB Clone
+## 🚀 Objective
 
 The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
 
-🏆 Project Goals
+## 🏆 Project Goals
 
 User Management: Implement a secure system for user registration, authentication, and profile management.
 Property Management: Develop features for property listing creation, updates, and retrieval.
@@ -58,32 +58,32 @@ REST API: Detailed documentation available through the OpenAPI standard, includi
 GraphQL API: Provides a flexible query language for retrieving and manipulating data.
 📌 Endpoints Overview
 
-REST API Endpoints
-Users
+# REST API Endpoints
+## Users
 
 GET /users/ - List all users
 POST /users/ - Create a new user
 GET /users/{user_id}/ - Retrieve a specific user
 PUT /users/{user_id}/ - Update a specific user
 DELETE /users/{user_id}/ - Delete a specific user
-Properties
+## Properties
 
 GET /properties/ - List all properties
 POST /properties/ - Create a new property
 GET /properties/{property_id}/ - Retrieve a specific property
 PUT /properties/{property_id}/ - Update a specific property
 DELETE /properties/{property_id}/ - Delete a specific property
-Bookings
+## Bookings
 
 GET /bookings/ - List all bookings
 POST /bookings/ - Create a new booking
 GET /bookings/{booking_id}/ - Retrieve a specific booking
 PUT /bookings/{booking_id}/ - Update a specific booking
 DELETE /bookings/{booking_id}/ - Delete a specific booking
-Payments
+## Payments
 
 POST /payments/ - Process a payment
-Reviews
+## Reviews
 
 GET /reviews/ - List all reviews
 POST /reviews/ - Create a new review
