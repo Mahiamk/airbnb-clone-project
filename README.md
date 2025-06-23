@@ -46,3 +46,60 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+## Team roles
+
+🧑‍🎨 UI/UX Designer
+Goal: Transform product visions into intuitive and engaging user experiences.
+
+UI (User Interface): Designs attractive, accessible, and easy-to-use interfaces.
+
+UX (User Experience): Researches users, creates personas, and designs user journeys, wireframes, and prototypes.
+
+Impact: Boosts user satisfaction and conversion by shaping how users interact with a product.
+
+🧠 Software Architect
+Goal: Design the blueprint of the software system.
+
+Chooses tech stacks, tools, and platforms.
+
+Sets code standards and reviews architecture.
+
+Impact: Ensures scalability, maintainability, and system integrity—especially crucial for complex or legacy systems.
+
+💻 Software Developer
+Goal: Build and stabilize the application.
+
+Front-End Devs: Focus on the user-facing side (UI, responsiveness).
+
+Back-End Devs: Handle logic, databases, APIs, and architecture.
+
+Full-Stack Devs: Work across both front-end and back-end.
+
+Impact: Turn plans into functioning software and fix issues during development.
+
+🧪 Quality Assurance (QA) Engineer
+Goal: Ensure the application meets all requirements and is bug-free.
+
+Performs functional and non-functional testing.
+
+Documents and reports issues and test results.
+
+Impact: Improves product quality by detecting problems early and enforcing testing standards.
+
+🤖 Test Automation Engineer
+Goal: Accelerate and streamline testing.
+
+Writes scripts for automated testing.
+
+Builds a maintainable test automation framework.
+
+Impact: Provides fast, repeatable testing to ensure consistent quality over time.
+
+🔧 DevOps Engineer
+Goal: Bridge the gap between development and operations.
+
+Builds CI/CD pipelines for efficient code deployment.
+
+Automates infrastructure and release processes.
+
+Impact: Enables faster delivery and improved collaboration while maintaining system stability.
