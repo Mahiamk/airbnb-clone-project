@@ -189,3 +189,26 @@ A Booking belongs to one User and one Property
 A User can leave many Reviews, each for a Property
 
 A Booking has one Payment
+
+## Feature Breakdown
+
+1. User Management
+Handles registration, authentication, and profile updates. Users can create an account, log in securely, and manage personal information. This feature ensures secure access and identity control throughout the platform.
+
+2. Property Management
+Allows users (typically hosts) to list, update, and remove properties. They can input details such as title, description, pricing, and location. This is the foundation of the platform’s inventory.
+
+3. Booking System
+Enables guests to search for and book available properties. It includes booking creation, updates, and status management. This system links users and properties with date-specific availability.
+
+4. Payment Processing
+Processes transactions related to bookings. It securely handles payment details, statuses, and timestamps. This ensures hosts get paid and guests can reserve properties with confidence.
+
+5. Review System
+Lets users leave reviews and ratings after their stay. Helps improve transparency, build trust, and guide future guests in making informed decisions.
+
+6. API Documentation
+Uses OpenAPI standards and GraphQL to describe and interact with backend APIs. This improves developer experience and facilitates smooth frontend-backend collaboration.
+
+7. Database Optimization
+Implements indexing and caching mechanisms. These improve performance by speeding up frequent queries and reducing database load.
