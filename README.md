@@ -272,3 +272,30 @@ Booking System: Prevents fraudulent reservations and tampering with booking data
 Payment Processing: Secures financial transactions and protects users from fraud.
 
 Review System: Ensures that reviews are posted by verified users, maintaining platform credibility.
+
+## CI/CD Pipeline
+
+📌 What is CI/CD?
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It's a development practice that automates the process of building, testing, and deploying code to ensure fast, safe, and consistent delivery of updates.
+
+Continuous Integration (CI) automatically tests and merges code changes to the main branch as soon as developers push their commits. This helps catch bugs early and ensures the codebase remains stable.
+
+Continuous Deployment/Delivery (CD) automates the release process, pushing changes to production or staging environments once they pass all tests.
+
+🚀 Why CI/CD is Important for This Project
+Faster Development: Automates repetitive tasks like testing and building.
+
+Higher Code Quality: Runs tests on every change to catch errors quickly.
+
+Improved Collaboration: Developers can work in parallel without breaking the main codebase.
+
+Safe Deployments: Reduces human error and ensures consistent deployment steps across environments.
+
+🛠️ Tools Used
+GitHub Actions: Automates workflows like running tests and deploying code when changes are pushed to the repository.
+
+Docker: Ensures consistent environments across development, testing, and production using containerization.
+
+PostgreSQL (for test environment): A consistent database setup for CI test pipelines.
+
+Heroku / Render / AWS / GCP: (Optional) Platforms for deploying the app from CI pipelines.
