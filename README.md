@@ -103,3 +103,89 @@ Builds CI/CD pipelines for efficient code deployment.
 Automates infrastructure and release processes.
 
 Impact: Enables faster delivery and improved collaboration while maintaining system stability.
+
+## Database Design
+This section outlines the structure of our database, including key entities, their main fields, and relationships among them.
+
+📌 Entities and Fields
+1. Users
+Represents registered users of the platform (property owners or renters).
+Important Fields:
+
+id: Unique identifier
+
+name: Full name
+
+email: Email address (unique)
+
+password: Hashed password
+
+role: Type of user (host or guest)
+
+2. Properties
+Represents listings created by users.
+Important Fields:
+
+id: Unique identifier
+
+user_id: Foreign key referencing Users
+
+title: Property title
+
+description: Detailed description
+
+location: Address or region
+
+3. Bookings
+Represents a reservation made by a user for a property.
+Important Fields:
+
+id: Unique identifier
+
+user_id: Foreign key referencing Users
+
+property_id: Foreign key referencing Properties
+
+start_date: Booking start date
+
+end_date: Booking end date
+
+4. Reviews
+Feedback submitted by users after a booking.
+Important Fields:
+
+id: Unique identifier
+
+user_id: Foreign key referencing Users
+
+property_id: Foreign key referencing Properties
+
+rating: Numerical score (e.g., 1 to 5)
+
+comment: Text feedback
+
+5. Payments
+Represents payment transactions for bookings.
+Important Fields:
+
+id: Unique identifier
+
+booking_id: Foreign key referencing Bookings
+
+amount: Payment amount
+
+payment_date: Timestamp
+
+status: e.g., completed, pending, failed
+🔗 Entity Relationships
+A User can own multiple Properties (1-to-many)
+
+A User can make multiple Bookings (1-to-many)
+
+A Property can have many Bookings (1-to-many)
+
+A Booking belongs to one User and one Property
+
+A User can leave many Reviews, each for a Property
+
+A Booking has one Payment
