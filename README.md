@@ -212,3 +212,63 @@ Uses OpenAPI standards and GraphQL to describe and interact with backend APIs. T
 
 7. Database Optimization
 Implements indexing and caching mechanisms. These improve performance by speeding up frequent queries and reducing database load.
+
+## API Security
+
+Securing the backend APIs is essential to protect sensitive user data, ensure platform integrity, and maintain user trust. The following key security measures will be implemented:
+
+🛡️ Key Security Measures
+Authentication
+
+Implements secure login mechanisms using JWT (JSON Web Tokens) or OAuth.
+
+Verifies that a user is who they claim to be before allowing access.
+
+🔒 Why it's important: Prevents unauthorized access to user accounts and personal data.
+
+Authorization
+
+Restricts actions based on user roles (e.g., guests cannot edit listings).
+
+Ensures users can only access data they own or are permitted to view.
+
+🔒 Why it's important: Protects sensitive resources and maintains data integrity.
+
+Rate Limiting
+
+Limits the number of requests per user/IP to prevent abuse.
+
+Deters brute-force login attempts and API spamming.
+
+🔒 Why it's important: Enhances platform reliability and reduces risk of DoS attacks.
+
+Data Validation and Sanitization
+
+Validates all inputs from clients to prevent injection attacks.
+
+Sanitizes data to protect against XSS and SQL injection.
+
+🔒 Why it's important: Prevents attackers from injecting malicious code or commands.
+
+HTTPS and Encryption
+
+Enforces secure communication through HTTPS.
+
+Encrypts sensitive data (e.g., passwords, payment info) both in transit and at rest.
+
+🔒 Why it's important: Keeps data private and secure from interception.
+
+CORS Policies
+
+Restricts which domains can interact with the API.
+
+🔒 Why it's important: Prevents unauthorized cross-origin requests and data leaks.
+
+🔐 Security Across Project Areas
+User Management: Protects login credentials and personal information from unauthorized access.
+
+Booking System: Prevents fraudulent reservations and tampering with booking data.
+
+Payment Processing: Secures financial transactions and protects users from fraud.
+
+Review System: Ensures that reviews are posted by verified users, maintaining platform credibility.
